@@ -1,0 +1,438 @@
+
+/********************************************* GENERAL & INFO *********************************************/
+
+
+/*///////////////////////////// <body> //////////////////////////////*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+/*///////////////////////////// general //////////////////////////////*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* 
+I am using Bootstrap 5 breakpoints for this project.
+
+This project is designed and developed for moblie, tablet and desktop sizes.
+
+The breakpoints are 576px < (tablet view) and 1200px < (desktop view)
+and 1400px < (extra large desktop view).
+
+This is a mobile-first develeoped project.
+*/
+
+
+
+
+
+
+
+
+
+
+/******************************************** TYPOGRAPHY ********************************************/
+
+
+
+/*///////////////////////////// .main-heading (<h1>) //////////////////////////////*/
+
+.main-heading {
+    color: #372765;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-top: 10%;
+    line-height: 3.2rem;
+}
+
+@media (min-width:576px)  {
+
+    .main-heading {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        margin-top: 2%;
+    }
+
+}
+
+@media (min-width:1200px)  {
+
+    .main-heading {
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-top: 3%;
+        text-align: left;
+    }
+
+}
+
+
+
+/*///////////////////////////// .hero-subheading (<h2>) //////////////////////////////*/
+
+.hero-subheading {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #666;
+    margin-top: 15%;
+}
+
+@media (min-width:576px)  {
+
+    .hero-subheading {
+        margin-top: 10%;
+    }
+    
+}
+
+@media (min-width:1200px)  {
+
+    .hero-subheading {
+        margin-top: 13%;
+        
+    }
+
+}
+
+
+
+/*///////////////////////////// .white-paragraph (<p>) //////////////////////////////*/
+
+.white-paragraph {
+    color: #F5F8FD;
+    font-weight: 200;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+/*///////////////////////////// .grey-paragraph (<p>) //////////////////////////////*/
+
+ .grey-paragraph {
+    color: #666;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin-top: 5%;
+ }
+
+ @media (min-width:576px)  {
+
+    .grey-paragraph {
+        margin-top: 2%;
+     }
+
+}
+
+ @media (min-width:1200px)  {
+
+    .grey-paragraph {
+        font-size: 1.2rem;
+        margin-top: 2%;  
+        text-align: left;   
+    }
+
+}
+
+
+
+/*///////////////////////////// .learn-more (<a>) //////////////////////////////*/
+/* Changing styles of the links */
+
+ .learn-more {
+    color: #F5F8FD;
+    font-weight: 200; 
+    text-decoration: underline;
+}
+
+.learn-more:hover {
+    color: #666;
+}
+
+
+
+/*///////////////////////////// .nav-link, .nav-link-active (<a>) //////////////////////////////*/
+/* Changing Bootstrap 5 styles for navigation links */
+
+.nav-link, .nav-link-active {
+    color: #666 !important;
+    border-radius: 5px;
+    margin: 10px;
+}
+.nav-link:hover {
+    background-color: #372765;
+    color: #fff !important ;
+} 
+
+
+@media (min-width:1200px)  {
+
+    .nav-link, .nav-link-active {
+        font-size: 1.2rem; 
+        padding: 20px !important;
+    }
+
+}
+
+
+
+/*///////////////////////////// .join-waitlist-button (<a>) //////////////////////////////*/
+/* Changing style of the "Join Waitlist" button in the navigation menü */
+
+.join-waitlist-button {
+    background-color: #372765;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.join-waitlist-button:hover {
+    background-color: #765DC0;
+}
+
+
+
+
+
+
+
+
+
+/********************************** ADDITIONAL STYLES FOR HERO SECTION **********************************/
+
+
+
+/*///////////////////////////// #hero (<section>) //////////////////////////////*/
+
+#hero {
+    background-color: #F5F8FD;
+    height: 100%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+@media (min-width:576px) {
+
+    #hero {
+       padding: 50px;
+    }
+  
+}
+
+@media (min-width:1200px) {
+
+    #hero {
+        padding: 30px 120px;
+    }
+  
+}
+
+
+
+/*///////////////////////////// .purple-background (<div>) //////////////////////////////*/
+
+.purple-background {
+    background-color: #372765;
+    border-radius: 50px;
+    padding: 8px 25px;
+    display: table;
+}
+
+/* Changing "purple-background" display on tablet size */
+@media (min-width:576px) {
+
+    .purple-background {
+        display: inline-block;
+    }
+  
+}
+
+
+/*///////////////////////////// .hero-first-column (<div>) //////////////////////////////*/
+/* Changing ".hero-first-column" text-align on desktop
+size to make .purple-ackground diva left-alaigned. */
+
+@media (min-width:1200px) {
+
+    .hero-first-column {
+        text-align: left !important;
+    } 
+
+}
+
+
+
+/*///////////////////////////// header //////////////////////////////*/
+
+header {
+    margin-bottom: 15%;
+}
+
+@media (min-width:1200px)  {
+
+    header {
+        margin-bottom: 5%;     
+    }
+
+}
+
+
+
+/*///////////////////////////// .navbar-toggler (<button>) //////////////////////////////*/
+
+.navbar-toggler {
+    background-color: #372765;
+}
+
+
+
+/*///////////////////////////// .hero-form (<form>) //////////////////////////////*/
+
+.hero-form {
+    width: 100%;
+}
+
+@media (min-width:1200px) {
+
+    .hero-form {
+        text-align: left;
+    }
+  
+}
+
+@media (min-width:1400px) {
+
+    .hero-form {
+        width: 80%;
+    }
+  
+}
+
+
+
+/*///////////////////////////// .form-input, .form-button (<input> <button>)  //////////////////////////////*/
+
+.form-input {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 18px;
+}
+
+.form-button {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    background-color: #372765;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 18px;
+}
+
+.form-button:hover {
+    background-color: #765DC0;
+}
+
+/* Changing "form" display and style on tablet size */
+@media (min-width:576px) {
+
+    .form-button, .form-input {
+        display: inline-block;
+    }
+
+    .form-input {
+        width: 60%;
+        margin-right: 10px;
+    }
+    .form-button {
+        width: 30%;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+}
+
+/* Changing "form" display and style on desktop size */
+@media (min-width:1200px)  {
+
+    .form-input, .form-button {
+        padding: 20px;
+        font-size: 1.2rem; 
+
+    }
+       
+}
+
+
+
+/*///////////////////////////// .company-icons-wrapper (<div>)  //////////////////////////////*/
+
+.company-icons-wrapper {
+    text-align: left;
+}
+
+
+
+/*///////////////////////////// .company-icon (<img>) //////////////////////////////*/
+
+.company-icon {
+   padding: 3% .9%;
+}
+
+.company-icon:hover {
+    transform: rotate(25deg);
+    transition-duration: 300ms;
+}
+
+/* Disappearing the ".company icon" transformation on desktop view. */
+@media (min-width:1200px)  {
+
+    .company-icon:hover {
+        transform: none;
+    }
+ 
+}
+
+
+
+/*///////////////////////////// .hero-illustration (<img>) //////////////////////////////*/
+
+.hero-illustration {
+    width: 50%;
+}
+
+/* Disappearing the "hero-illustration" on mobile and tablet view. */
+@media (max-width:1200px) {
+
+    .hero-illustration {
+        display: none;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/********************************************* THE END *********************************************/
+/***************************************************************************************************/
+
+
